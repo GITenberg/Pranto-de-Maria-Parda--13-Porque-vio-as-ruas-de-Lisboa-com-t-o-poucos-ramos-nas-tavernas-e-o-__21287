@@ -1,106 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/21287">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-8.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne54d8ac1ec8d461c8c04f8d5f35773e0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12830</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:04</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34239</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:20:00.989000</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N63f419c3fcbf47f282e93311556d699b">
+          <rdf:Description rdf:nodeID="N69cf62f57c444b16b22fc6a2f95d132b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/9834">
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Gil_Vicente"/>
-        <pgterms:name>Vicente, Gil</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Gil_Vicente"/>
-      </pgterms:agent>
-    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:16:17.886090</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3567fa0221d44ca4abad9789d6c2edb7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12947</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N835d09b1c129486c96a673836cc23ed9">
+      <rdf:Description rdf:nodeID="N6c20f84b1ca64b75a77ca78a62bdf92d">
         <rdf:value>Poetry</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <pgterms:marc260>Lisboa:&#13;
-As Tres Bibliothecas&#13;
-Empreza de Urbano de Castro e Alvaro Pinheiro Chagas&#13;
-Rua da Barroca, 72--Lisboa&#13;
-Offic. a vapor da Pap. Estevão Nunes &amp; F.os--Aurea, 58--Lisboa&#13;
-1902</pgterms:marc260>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:20:01.090996</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16362</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb14e379f8e7b4a79adf50e946e18a73b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf88e96d780704f24886d35b165c45af4">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3681ebc4582e488f95400719d4982d6b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13315</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:04</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N072608e7640f402a9c1420428083f511">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N74e0545ca95b4ee5b54cb583f45ad76a">
-        <rdf:value>Drama</rdf:value>
+      <rdf:Description rdf:nodeID="N37856f2ed7054d87940cf60feb9549b6">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Drama</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4a9c557f0f9847dd9ccade9eb20fe224">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PQ</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48344</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7eda40de440d4258a03e65dddd559c97">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:12:31.422210</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74768</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3dfab4dbcc454dc494d46829c6b3447d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T02:25:34.099017</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nebd88b734192426b9920e65640875cff">
+      <rdf:Description rdf:nodeID="N07713a0f6cc14f2aa4807dc7024b58b9">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:title>Pranto de Maria Parda&#13;
-Porque vio as ruas de Lisboa com tão poucos ramos nas tavernas, e o vinho tão caro e ella não podia passar sem elle</dcterms:title>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-04</dcterms:issued>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na959ea22ac244020a8a150d1cbfc6ee0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N547e307a81b64c3ea6fe857d62c17128">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12830</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc546>This ebook uses a beginning of the 20th century spelling</pgterms:marc546>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:12:30.895729</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16362</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:20:01.163994</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31823</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf40c22a49bc6479b9b4dde128d0e8935">
+          <rdf:Description rdf:nodeID="N702403f9ff6e48cb94f493689ab81c79">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -109,94 +126,105 @@ Porque vio as ruas de Lisboa com tão poucos ramos nas tavernas, e o vinho tão 
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:02</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34057</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb8a18784051746cdab2fa343f799b3f0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="Nccb3df2a450544098f42856b750ff04a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34057</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:02</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-h/21287-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33804</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82702</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:20:01.405987</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndadff2ce30b040f1b8632261634c1994">
+          <rdf:Description rdf:nodeID="N916ead6e691f487789d7d77ccf4b818d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:04</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:alternative>Pranto de Maria Parda&#13;
+Porque viu as ruas de Lisboa com tão poucos ramos nas tavernas, e o vinho tão caro e ela não podia passar sem ele</dcterms:alternative>
+    <dcterms:title>Pranto de Maria Parda&#13;
+Porque vio as ruas de Lisboa com tão poucos ramos nas tavernas, e o vinho tão caro e ella não podia passar sem elle</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7b169a427b0641f08a44c2890e6d4bc3">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PQ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N9abf1639c7d546a29fe3c968b798ea82">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>PT Teatro</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:marc260>Lisboa:&#13;
+As Tres Bibliothecas&#13;
+Empreza de Urbano de Castro e Alvaro Pinheiro Chagas&#13;
+Rua da Barroca, 72--Lisboa&#13;
+Offic. a vapor da Pap. Estevão Nunes &amp; F.os--Aurea, 58--Lisboa&#13;
+1902</pgterms:marc260>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-05-04</dcterms:issued>
+    <pgterms:marc250>Edição Popular&#13;
+Decima Segunda Edição</pgterms:marc250>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82694</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T01:20:01.657982</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3a7f5ae802dc4ab6bcbf9df5b2a933c6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <pgterms:marc508>Produced by Pedro Saborano. Para comentários à transcrição&#13;
 visite http://pt-scriba.blogspot.com (This book was&#13;
 produced from scanned images of public domain material&#13;
 from the Google Print project.)</pgterms:marc508>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nc07b2482c8954e7ea7d3ec02f8e2d20d">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N6bda48b42c5448c1ae1b231550308b82">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>PT Poesia</rdf:value>
       </rdf:Description>
-    </dcterms:language>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4999bda2403e45b182aee7ddcc992afd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34235</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T13:12:30.475162</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc546>This ebook uses a beginning of the 20th century spelling</pgterms:marc546>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/21287.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N919f07c600f74cc6a03fe322dcc4d489">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T02:25:34.691422</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17823</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:alternative>Pranto de Maria Parda&#13;
-Porque viu as ruas de Lisboa com tão poucos ramos nas tavernas, e o vinho tão caro e ela não podia passar sem ele</dcterms:alternative>
-    <pgterms:marc250>Edição Popular&#13;
-Decima Segunda Edição</pgterms:marc250>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-h.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0a4c433b810f42d5a6d695f4988e5648">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N18c020deb3df496987c1081a0253ce85">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/21287/21287-h/21287-h.htm">
         <dcterms:isFormatOf rdf:resource="ebooks/21287"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-05-04T06:43:04</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13315</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33804</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb7185794ea154f9e819c5e4b1fc266f5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/9834">
+        <pgterms:name>Vicente, Gil</pgterms:name>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Gil_Vicente"/>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Gil_Vicente"/>
+      </pgterms:agent>
+    </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gil_Vicente">
     <dcterms:description>en.wikipedia</dcterms:description>
